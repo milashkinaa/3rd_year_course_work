@@ -1,0 +1,158 @@
+.cards {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.cards td {
+    width: 100%;
+    vertical-align: top;
+}
+
+.card {
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    height: auto;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+
+.card-header1 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-12.userapi.com/s/v1/ig2/m5IxEejru1PktovZkEisyFYObiBmiEJVu22O0Y8t3zGNAg2xAg8QkRqOs6uQSIEqpXG7Ze71rR0fsmfhyVICWUPw.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x451,373x467&from=bu&u=FcauRMXAc4nJm6sMa5rPQ2JFdSonMEI3Yq5pH_2zBqs&cs=373x467');
+}
+
+
+.card-header2 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://islam-today.ru/files/news/part_14/142060/preview-440x301.jpg');
+}
+
+
+.card-header3 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-28.userapi.com/impg/24AS2mufftDsMOubQTOL8la2A4gJiIaUjkDlAA/Z75EI9g5Ghk.jpg?size=357x500&quality=95&sign=f131bc562334f47906e57af07c1e46a7&type=album');
+}
+
+
+.card-header4 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-29.userapi.com/impg/Rb1viUS9CnW2akpvla5Fn3qnCj50H070UIkNcg/CDmQRAGw9ZY.jpg?size=319x454&quality=95&sign=1d5aa256ca7af0d648321adfbe206657&type=album');
+}
+
+
+.card-header5 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-4.userapi.com/impg/WckrPyOKdDQlYwgpeLyvQAq32YL3T_KDKD5IMg/1yniLTWlkLo.jpg?size=390x587&quality=95&sign=556899997aaac24e52ed629a42f02805&type=album');
+}
+
+
+.card-header6 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-72.userapi.com/impg/4CTCz7kdIstqzj7p5kgWHCZuY1nEoclWbxuxjA/A6LJCUjR8Gw.jpg?size=332x459&quality=95&sign=b21bc01d9cc0364d993266be31da97fd&type=album');
+}
+
+
+.card-header7 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-80.userapi.com/impg/q9I5tdhRzAxK1NgdCfmeVWjahFG9BTTm_qvejw/3DgIO_ZAGlM.jpg?size=375x471&quality=95&sign=2602e50a3e8eaac7b4b118d60741666d&type=album');
+}
+
+
+.card-header8 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-50.userapi.com/impg/1gE4XTmPJ7vpm5pnI9AlZDTqITopWC_-ncwvFA/cGw3VFSY31c.jpg?size=307x449&quality=95&sign=77f98cbf3673faa91f220e46f6286bf1&type=album');
+}
+
+
+.card-header9 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-14.userapi.com/impg/_QA28CNBhI6vMsiasbhoAYMPGezve41CM2TXfg/9erfz8V1PtU.jpg?size=328x455&quality=95&sign=fdae0d01faea23c3f090ad415bd98de6&type=album');
+}
+
+
+.card-header10 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-69.userapi.com/impg/dXpbrRjYNUQpSLMfpgv5Drh1fduKdl6iXgm5uw/-LH1MSwUqCQ.jpg?size=336x438&quality=95&sign=613c754210e50b9d434957c30b50c6c6&type=album');
+}
+
+
+.card-header11 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-36.userapi.com/impg/BQ6GFoel66TueMajhp3myeY2U8wDsUrXBgRL0A/jum45WR3KqI.jpg?size=333x438&quality=95&sign=26af8f7e47ee5f0fa4b026e4e011bb44&type=album');
+}
+
+
+.card-header12 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-57.userapi.com/impg/YfHlW5fGbH5ari8KUPlXKYIYjX5IWQMaKg0F8Q/oABGXX8jObs.jpg?size=266x400&quality=95&sign=0ef74ccb2a99e448a65e3060b9a7ed7b&type=album');
+}
+
+
+.card-body {
+    padding: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.highlight {
+    text-decoration: underline;
+    color: white;
+}

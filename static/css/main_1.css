@@ -1,0 +1,158 @@
+.cards {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.cards td {
+    width: 100%;
+    vertical-align: top;
+}
+
+.card {
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+    height: auto;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+
+.card-header1 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-30.userapi.com/impg/5TmO07uO7NKsf4Vy1mubvGWWxqNWK2O29bHQXw/7WIAvxVIIGU.jpg?size=324x210&quality=95&sign=7991ee911a453de3bba419526e6132a1&type=album');
+}
+
+
+.card-header2 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-40.userapi.com/impg/zlbNULKhEvRZ34qAxUk75c5LKx2dwMZZ48tFIQ/lxKEtjaGgIQ.jpg?size=320x320&quality=95&sign=650c815334f8dd9610c2879cce585492&type=album');
+}
+
+
+.card-header3 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-28.userapi.com/impg/24AS2mufftDsMOubQTOL8la2A4gJiIaUjkDlAA/Z75EI9g5Ghk.jpg?size=357x500&quality=95&sign=f131bc562334f47906e57af07c1e46a7&type=album');
+}
+
+
+.card-header4 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-29.userapi.com/impg/Rb1viUS9CnW2akpvla5Fn3qnCj50H070UIkNcg/CDmQRAGw9ZY.jpg?size=319x454&quality=95&sign=1d5aa256ca7af0d648321adfbe206657&type=album');
+}
+
+
+.card-header5 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-77.userapi.com/impg/55vYtSeczYGjg5vx_pRGURUVOsBNHqUUCMDN9w/vvECRaeGRV4.jpg?size=319x500&quality=95&sign=8e0e7152d093ebc0b5d31ac96f02c0ec&type=album');
+}
+
+
+.card-header6 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-72.userapi.com/impg/4CTCz7kdIstqzj7p5kgWHCZuY1nEoclWbxuxjA/A6LJCUjR8Gw.jpg?size=332x459&quality=95&sign=b21bc01d9cc0364d993266be31da97fd&type=album');
+}
+
+
+.card-header7 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-80.userapi.com/impg/q9I5tdhRzAxK1NgdCfmeVWjahFG9BTTm_qvejw/3DgIO_ZAGlM.jpg?size=375x471&quality=95&sign=2602e50a3e8eaac7b4b118d60741666d&type=album');
+}
+
+
+.card-header8 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-50.userapi.com/impg/1gE4XTmPJ7vpm5pnI9AlZDTqITopWC_-ncwvFA/cGw3VFSY31c.jpg?size=307x449&quality=95&sign=77f98cbf3673faa91f220e46f6286bf1&type=album');
+}
+
+
+.card-header9 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-21.userapi.com/impg/oAhCcNoIXrKGbj-W7Tii5Y7QdC86Df0OhGrPqg/v389kg9iGfk.jpg?size=197x300&quality=95&sign=c5a61cda662bccf90fe91193af5f67ef&type=album');
+}
+
+
+.card-header10 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-69.userapi.com/impg/dXpbrRjYNUQpSLMfpgv5Drh1fduKdl6iXgm5uw/-LH1MSwUqCQ.jpg?size=336x438&quality=95&sign=613c754210e50b9d434957c30b50c6c6&type=album');
+}
+
+
+.card-header11 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-36.userapi.com/impg/BQ6GFoel66TueMajhp3myeY2U8wDsUrXBgRL0A/jum45WR3KqI.jpg?size=333x438&quality=95&sign=26af8f7e47ee5f0fa4b026e4e011bb44&type=album');
+}
+
+
+.card-header12 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    background-image: url('https://sun9-66.userapi.com/impg/6uBQgCnc8pMRPAgCRNvyMLxg_C_iX2gY1BGK7w/JUkgOe9OB84.jpg?size=323x447&quality=95&sign=1ae4e8689b29c3a14af8ada801b0e269&type=album');
+}
+
+
+.card-body {
+    padding: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.highlight {
+    text-decoration: underline;
+    color: white;
+}
