@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h1>Флеш-карточки. Цифры.</h1>
+
+<div id="flashcard-container">
+    <div class="flashcard large-text">
+            <div class="front">
+                <p id="question"></p>
+            </div>
+            <div class="back">
+                <p id="answer"></p>
+            </div>
+    </div>
+    <button id="showCard">Показать карточку</button>
+</div>
+
+<script src="{{ url_for('static', filename='js/cards_1/flashcards_numbers_1.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/flashcards.css') }}">
+{% endblock %}
